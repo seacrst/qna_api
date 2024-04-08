@@ -9,7 +9,7 @@ pub trait Config {
 
 pub struct Question {
   pub question_path: &'static str,
-  pub questions_path: &'static str,
+  pub questions_path: &'static str
 }
 
 impl Question {
@@ -28,7 +28,7 @@ impl Question {
 
 pub struct Answer {
   pub answer_path: &'static str,
-  pub answers_path: &'static str,
+  pub answers_path: &'static str
 }
 
 impl Answer {
