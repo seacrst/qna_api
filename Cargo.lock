@@ -289,12 +289,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "dotenv"
-version = "0.15.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
-
-[[package]]
 name = "dotenvy"
 version = "0.15.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1023,21 +1017,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "qna_api"
-version = "0.1.0"
-dependencies = [
- "async-trait",
- "axum",
- "dotenv",
- "log",
- "pretty_env_logger",
- "serde",
- "sqlx",
- "thiserror",
- "tokio",
-]
-
-[[package]]
 name = "quote"
 version = "1.0.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1584,6 +1563,21 @@ dependencies = [
  "url",
  "urlencoding",
  "uuid",
+]
+
+[[package]]
+name = "stackoverflow-api"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "axum",
+ "dotenvy",
+ "log",
+ "pretty_env_logger",
+ "serde",
+ "sqlx",
+ "thiserror",
+ "tokio",
 ]
 
 [[package]]
